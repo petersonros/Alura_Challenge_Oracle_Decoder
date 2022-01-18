@@ -1,4 +1,4 @@
-# Challenge Oracle ONE Semana
+# Challenge Oracle ONE
 
-Challenge Oracle ONE Semana 01 e 02:
-Construa um decodificador de texto com JavaScript.
+## Semana 01 e 02:
+## Construa um decodificador de texto com JavaScript.
