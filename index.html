@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +7,93 @@
     <meta name="description" content="Challenge Oracle ONE.">
     <meta name="keywords" content="HTML, CSS, JavaScript, Alura">
     <meta name="author" content="Peterson R.">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!--link rel="stylesheet" href="assets/css/style.css"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <title>Criptografia</title>
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1 class="titulo">Decodificador de texto.</h1>
-        </div>
+    <header class="container bg-dark py-2 text-muted text.center">
+        <h1>Criptografando!</h1>
     </header>
 
-    <main class="container">
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Texto Criptografado</h1>
+                <p class="lead text-muted">
+                    <!-- Texto criptografado (ou cifrado): Informação incompreensível para aqueles que não devem ter acesso a ela. --> 
+                    Criptografar (ou cifrar): Utilizar um segredo para transformar um texto claro em texto cifrado. 
+                    Pode ser revertido (descriptografado ou decifrado) por aqueles que souberem o segredo correto.
+                </p>
+            </div>
+        </div>
+    </section>
 
-        <section class="container">
-            <h2 id="titulo-form">Escreva seu texto:</h2>
+    <main class="">
+        <div class="py-5 bg-light">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-			<form id="form-adiciona">
+                    <!-- primeira coluna -->
+                    <div class="col-md-7">
+                        <div class="card shadow-sm">
+                            <div class="p-3 border bg-light">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Example text area</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="">
+                                        <button type="button" class="btn btn-outline-primary">Criptografar</button>
+                                        <button type="button" class="btn btn-outline-primary">Descriptografar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="grupo">
-					<input id="nome" name="nome" type="text" placeholder="digite seu texto aqui" class="campo">
+                    <!-- Segunda Coluna -->
+                    <div class="col-md-5">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Copiar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-	
-				<button id="adicionar-paciente" class="botao bto-principal">criptografar</button>
-			</form>
-        </section>
-
-        <section class="container">
-            <h2 id="">Mensagem criptografada:</h2>
-            <input class="text-input" type="text" id="msg"></input>
-            <input class="btn" type="submit" value="copiar" id="btn-copy">
-        </section>
+            </div>
+        </div>
     </main>
+
+    <footer class="text-muted py-5 bg-dark">
+        <div class="container">
+            <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+            </p>
+            <p class="mb-1">
+                Challenge Oracle ONE
+            </p>
+            <p class="mb-0">
+                Peterson <a href="/">GitHub</a> e <a href="../getting-started/introduction/">LinkedIn</a>.
+            </p>
+        </div>
+    </footer>
     
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
