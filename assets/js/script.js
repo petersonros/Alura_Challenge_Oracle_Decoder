@@ -1,20 +1,42 @@
-
-/* Regras Codificador: 
-"e" é convertido para "enter" 
-"i" é convertido para "imes"
-"a" é convertido para "ai"
-"o" é convertido para "ober"
-"u" é convertido para "ufat"
-Apenas letras minúsculas
-Não permite acentuação   
+// Somente letras minúsculas sem acentuação.
+// Codificador
+/*
+A vogal "a" é trocada por "ai"
+A vogal "e" é trocada por "enter"
+A vogal "i" é trocada por "imes"
+A vogal "o" é trocada por "ober"
+A vogal "u" é trocada por "ufat"
 */
 
-/* Regras Decodificador: 
-"enter" é convertido para "e" 
-"imes" é convertido para "i"
-"ai" é convertido para "a"
-"ober" é convertido para "o"
-"ufat" é convertido para "u"
-Apenas letras minúsculas
-Não permite acentuação     
+/* var vogalA = a;
+var vogalE = e;
+var vogalI = i;
+var vogalO = o;
+var vogalU = u; */
+
+document.querySelector('.texto-class');
+
+texto.value;
+
+var texto = value;
+
+var textoCodificado = texto.replace(/a/gi, 'ai').replace(/e/gi, 'ei').replace(/i/gi, 'imes').replace(/o/gi, 'ober').replace(/u/gi, 'ufat');
+
+console.log(textoCodificado);
+
+
+
+//Decodificador
+/*
+"ai"     é trocado pela vogal "a"
+"enter"  é trocado pela vogal "e"
+"imes"   é trocado pela vogal "i"
+"ober"   é trocado pela vogal "o"
+"ufat"   é trocado pela vogal "u"
 */
+
+/* var aiCode = ai;
+var enterCode = enter;
+var imesCode = imes;
+var oberCode = ober;
+var ufatCode = ufat; */
