@@ -42,5 +42,3 @@ clickEncoded.onclick = function(){textEncoded();}
 clickDecoded.onclick = function(){textDecoded();}
 
 //copyTexto.onclick = function(){execCopy();}
-
-// final do que eu copiei
