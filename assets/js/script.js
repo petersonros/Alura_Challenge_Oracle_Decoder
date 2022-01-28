@@ -1,9 +1,8 @@
 
-var initialText = document.getElementById("input") ;
-var clickEncoded = document.getElementById("encoded");
-var clickDecoded = document.getElementById("decoded");
-var textoConvertido = document.getElementById("init-text") ;
-var TextResult;
+var initialText = document.querySelector("#input") ;
+var clickEncoded = document.querySelector("#encoded");
+var clickDecoded = document.querySelector("#decoded");
+var textResult;
 var encoded;
 var decoded;  
 
@@ -18,9 +17,9 @@ A vogal "u" é trocada por "ufat"
 function textEncoded(){
         var myFrase = initialText.value;             
         encoded = myFrase.replace(/a/g, 'ai').replace(/e/g, 'enter').replace(/i/g, 'imes').replace(/o/g, 'ober').replace(/u/g, 'ufat');
-        TextResult = encoded;
-        document.getElementById('init-text').value= encoded;
-}
+        textResult = encoded;
+        document.querySelector('#init-text').value= encoded;
+        }
 
 //Decodificador
 /*
@@ -33,12 +32,10 @@ function textEncoded(){
 function textDecoded(){
         var myFrase = initialText.value;
         decoded = myFrase.replace(/ai/g, 'a').replace(/enter/g, 'e').replace(/imes/g, 'i').replace(/ober/g, 'o').replace(/ufat/g, 'u');
-        TextResult = decoded;
-        document.getElementById('init-text').value= decoded;
-}  
+        textResult = decoded;
+        document.querySelector('#init-text').value= decoded;
+        }
 
 clickEncoded.onclick = function(){textEncoded();}
 
 clickDecoded.onclick = function(){textDecoded();}
-
-//copyTexto.onclick = function(){execCopy();}
