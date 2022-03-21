@@ -1,0 +1,21 @@
+:root {
+    height: 100vh;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#181818, #434343);
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1100px;
+}

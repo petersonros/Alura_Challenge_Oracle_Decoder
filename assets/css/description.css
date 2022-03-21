@@ -1,0 +1,18 @@
+header {
+    border-radius: 7px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    color: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-top: 7px;
+    width: 1100px;
+}
+
+header h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
