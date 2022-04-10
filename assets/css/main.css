@@ -1,0 +1,41 @@
+.main__container {
+    background: var(--box-backgrond);
+    box-sizing: border-box;
+    box-shadow: 0 0 .25rem var(--box-shadow);
+    border-radius: .5rem;
+    left: 50%;
+    padding: 2.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+}
+
+.form__container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form__decoder {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-around;
+}
+
+.form__text-label {
+    color: var(--box-text);
+}
+
+.form__text-area {
+    color: var(--box-text);
+    height: 250px;
+    width: 330px;
+}
+
+.form__text {
+    color: var(--box-shadow);
+}

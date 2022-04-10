@@ -1,0 +1,20 @@
+.header__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 0 0;
+    width: 100%;
+}
+
+.header__title {
+    color: var(--box-text);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.header__text {
+    color: var(--box-text);
+    font-size: 1.75rem;
+    line-height: 2rem;
+    padding: .75rem 0 0;
+}
