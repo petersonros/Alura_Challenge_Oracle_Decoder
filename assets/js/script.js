@@ -39,3 +39,4 @@ function textDecoded(){
 clickEncoded.onclick = function(){textEncoded();}
 
 clickDecoded.onclick = function(){textDecoded();}
+

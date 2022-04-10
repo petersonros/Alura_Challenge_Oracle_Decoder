@@ -37,7 +37,7 @@
     background: var(--main-backgrond);
     border-radius: .25rem;
     color: var(--title-text);
-    cursor: pointer;
+    cursor: auto;
     font-size: 1.25rem;
     line-height: 2rem;
     height: 250px;
@@ -50,10 +50,10 @@
 }
 
 button {
-    background: var(--title-text);
-    border: none;
+    background: none;
+    border: 1px solid var(--box-shadow);
     border-radius: .25rem;
-    color: var(--light-color);
+    color: var(--box-text);
     font-size: 1.25rem;
     line-height: 1.75rem;
     margin: 0 .5rem 0 0;
@@ -61,6 +61,8 @@ button {
 }
 
 button:hover {
-    transform: scale(1.05);
+    box-shadow: 0 0 .25rem var(--box-shadow);
+    color: var(--box-shadow);
+    cursor: pointer;
+    transform: scale(1.025);
 }
-
