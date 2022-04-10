@@ -1,0 +1,21 @@
+:root {
+	--main-background: #222D2E ;
+	--backgrond-text: #303E40;
+	--text-color: #A6DCE0;
+	--main-text: #B7F2F7;
+
+	--var01: #660066;
+	--var02: # d-flex justify-content-between align-items-center;
+	--btn: btn btn-outline-primary;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
