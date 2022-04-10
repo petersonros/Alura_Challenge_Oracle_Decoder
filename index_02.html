@@ -7,34 +7,57 @@
     <meta name="description" content="Challenge Oracle ONE.">
     <meta name="keywords" content="HTML, CSS, JavaScript, Alura">
     <meta name="author" content="Peterson R.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">         
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style_02.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>Criptografia</title>
 </head>
 <body>
 
     <header class="header__container">
-        <span>Challenge - Oracle ONE - Alura</span>
-        <span>Criptografia</span>
+        <span class="header__title">Challenge - Oracle ONE - Alura</span>
+        <span class="header__text">Criptografia</span>
     </header>
 
     <main class="main__container">
         <form class="form__container" action="">
-
-            <div class="single-input">
-                <input type="text" class="input" id="nome" required>
-                <label for="nome">Nome</label>
+            <!-- primeira coluna -->
+            <div class="form__decoder">
+                <label for="" class="form__text-label">Digite para criptografar.</label>
+                <input class="form__text-area" id="input" type="text"></input>
+                <p class="form__text">
+                São permitidas apenas letras minúsculas.
+                </p>
+                <div class="button__area">
+                    <button type="button" class="button__encoded" id="encoded">Criptografar</button>
+                    <button type="button" class="button__decoded" id="decoded">Descriptografar</button>
+                </div>
             </div>
-    
-            <div class="single-input">
-                <input type="text" class="input" id="sobrenome" required>
-                <label for="sobrenome">Sobre nome</label>
+            <!-- segunda coluna -->
+            <div class="form__decoder">
+                <label for="" class="form__text-label">Esse é seu texto criptogrado.</label>
+                <input class="form__text-area" id="input" type="text"></input>
+                <p class="form__text">
+                    Copie seu texto criptogrado para salvar em um documento.
+                </p>
+                <div class="button__area">
+                    <button type="button" class="button__copy" id="copy">Copiar</button>
+                </div>
             </div>
     
         </form>
     </main>
 
-    <footer class="footer__container">Peterson 2022</footer>
+    <footer class="footer__container">
+        <span class="footer__name">Peterson 2022</span>
+        <div class="footer__social">
+            <i class="devicon-github-original"></i>
+            <i class="devicon-linkedin-plain"></i>
+        </div>
+    </footer>
 
 </body>
 </html>
