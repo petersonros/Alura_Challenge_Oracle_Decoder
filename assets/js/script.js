@@ -40,3 +40,7 @@ clickEncoded.onclick = function(){textEncoded();}
 
 clickDecoded.onclick = function(){textDecoded();}
 
+function copyText(){
+        navigator.clipboard.writeText(encoded);
+    }
+
